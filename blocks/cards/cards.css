@@ -1,27 +1,114 @@
-.cards > ul {
-  list-style: none;
-  margin: 0;
+/* Cards block */
+.cards {
+  --cards-gap: 20px;
+  --cards-text-color: rgb(41, 29, 24);
+  --cards-label-size: 16px;
+  --cards-title-size: 28px;
+  --cards-body-size: 16px;
+  --cards-padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--cards-gap);
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  color: var(--cards-text-color);
 }
 
-.cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+/* Each card = a row */
+.cards > div {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  box-shadow: rgba(41, 29, 24, 0.08) 0px 16px 16px 16px;
+  min-height: 400px;
+  background: #fff;
 }
 
-.cards .cards-card-body {
-  margin: 16px;
+/* Image cell (first child) — positioned as background */
+.cards > div > div:first-child {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
 
-.cards .cards-card-image {
-  line-height: 0;
-}
-
-.cards > ul > li img {
+.cards > div > div:first-child picture {
+  display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  height: 100%;
+}
+
+.cards > div > div:first-child img {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* Text cell (second child) — on top of image */
+.cards > div > div:last-child {
+  position: relative;
+  z-index: 1;
+  padding: var(--cards-padding);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Category label */
+.cards > div > div:last-child > p:first-child {
+  font-size: var(--cards-label-size);
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 2px;
+  letter-spacing: 0.02em;
+}
+
+/* Title */
+.cards h3 {
+  font-size: var(--cards-title-size);
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 8px;
+}
+
+/* Description */
+.cards > div > div:last-child > p:nth-child(3) {
+  font-size: var(--cards-body-size);
+  line-height: 1.5;
+  margin: 0 0 16px;
+}
+
+/* CTA link container + link */
+.cards > div > div:last-child > p:last-child {
+  margin: 0;
+}
+
+main .cards a.button:any-link {
+  background: none;
+  border: none;
+  color: var(--cards-text-color);
+  font-size: var(--cards-body-size);
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  text-decoration: underline;
+}
+
+@media (width >= 900px) {
+  .cards {
+    flex-direction: row;
+    gap: var(--cards-gap);
+  }
+
+  .cards > div {
+    flex: 1;
+    min-height: 559px;
+  }
+
+  .cards h3 {
+    font-size: 32px;
+  }
 }

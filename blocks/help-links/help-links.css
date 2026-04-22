@@ -1,0 +1,65 @@
+.help-links {
+  --block-text: rgb(41, 29, 24);
+  --block-padding: 24px 0;
+
+  color: var(--block-text);
+  padding: var(--block-padding);
+  text-align: center;
+}
+
+.help-links > div:first-child h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.help-links > div:first-child p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0.8em auto 16px;
+  max-width: 680px;
+}
+
+/* Cards container: row 2, 3, 4 are the link cards */
+.help-links .help-links-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--block-text);
+  padding: 16px;
+}
+
+.help-links .help-links-card:hover {
+  text-decoration: none;
+}
+
+.help-links .help-links-card img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.help-links .help-links-card .help-links-label {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.help-links .help-links-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+@media (width >= 600px) {
+  .help-links .help-links-cards {
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+  }
+}

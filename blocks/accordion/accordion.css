@@ -1,0 +1,77 @@
+.accordion {
+  --accordion-border: 1px solid #ddd8cf;
+  --accordion-question-padding: 16px 24px;
+  --accordion-answer-padding: 0 24px 16px;
+  --accordion-question-font-size: 18px;
+  --accordion-question-font-weight: 600;
+  --accordion-answer-color: #3d4f45;
+  --accordion-answer-font-size: 16px;
+
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* Each row = one accordion item */
+.accordion > div {
+  border: var(--accordion-border);
+  border-radius: 4px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+/* Question cell (first cell in each row) */
+.accordion > div > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--accordion-question-padding);
+  cursor: pointer;
+  user-select: none;
+}
+
+.accordion > div > div:first-child h3 {
+  margin: 0;
+  font-size: var(--accordion-question-font-size);
+  font-weight: var(--accordion-question-font-weight);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  line-height: 1.4;
+  flex: 1;
+}
+
+/* Plus/minus icon via ::after on the question cell */
+.accordion > div > div:first-child::after {
+  content: '+';
+  font-size: 22px;
+  font-weight: 400;
+  color: #c87533;
+  margin-left: 16px;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.accordion > div.open > div:first-child::after {
+  content: '−';
+}
+
+/* Answer cell (second cell in each row) */
+.accordion > div > div:last-child {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 24px;
+}
+
+.accordion > div.open > div:last-child {
+  max-height: 500px;
+  padding: var(--accordion-answer-padding);
+}
+
+.accordion > div > div:last-child p {
+  margin: 0;
+  font-size: var(--accordion-answer-font-size);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: var(--accordion-answer-color);
+  line-height: 1.6;
+}

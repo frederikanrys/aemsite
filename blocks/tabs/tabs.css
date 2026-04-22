@@ -1,0 +1,125 @@
+/* Tabs block */
+.tabs {
+  --tabs-active-border: #e8651a;
+  --tabs-inactive-color: #c8c2b8;
+  --tabs-active-color: var(--text-color, #0f1a14);
+  --tabs-tag-bg: #e8651a;
+  --tabs-tag-color: #fff;
+  --tabs-card-radius: 20px;
+  --tabs-card-bg: #fff;
+  --tabs-desc-color: #7a8a80;
+}
+
+/* Tab menu (built by JS) */
+.tabs .tabs-menu {
+  display: flex;
+  gap: 0;
+  padding: 12px 0 0;
+  margin: 0 0 24px;
+  list-style: none;
+}
+
+.tabs .tabs-menu li {
+  margin: 0;
+  padding: 0;
+}
+
+.tabs .tabs-menu button {
+  background: none;
+  border: none;
+  border-bottom: 4px solid transparent;
+  padding: 8px 32px 8px 0;
+  font-family: var(--heading-font-family, sans-serif);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  color: var(--tabs-inactive-color);
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.tabs .tabs-menu button[aria-selected="true"] {
+  color: var(--tabs-active-color);
+  border-bottom-color: var(--tabs-active-border);
+}
+
+.tabs .tabs-menu button:hover {
+  color: var(--tabs-active-color);
+}
+
+/* Tab panels */
+.tabs .tabs-panel {
+  display: none;
+}
+
+.tabs .tabs-panel.is-active {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (width >= 600px) {
+  .tabs .tabs-panel.is-active {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+}
+
+/* Card styling */
+.tabs .tabs-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--tabs-card-bg);
+  border-radius: var(--tabs-card-radius);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.tabs .tabs-card:hover {
+  text-decoration: none;
+}
+
+.tabs .tabs-card-image {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+
+.tabs .tabs-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tabs .tabs-card-body {
+  padding: 12px 12px 16px;
+}
+
+.tabs .tabs-tag {
+  display: inline-block;
+  background: var(--tabs-tag-bg);
+  color: var(--tabs-tag-color);
+  padding: 5px 8px 3px;
+  font-size: 10.4px;
+  font-weight: 600;
+  border-radius: 9999px;
+  margin-bottom: 8px;
+  font-family: var(--heading-font-family, sans-serif);
+}
+
+.tabs .tabs-card h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  line-height: 1.3;
+}
+
+.tabs .tabs-card .tabs-desc {
+  font-size: 14px;
+  color: var(--tabs-desc-color);
+  margin: 0;
+  line-height: 1.4;
+}

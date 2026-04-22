@@ -1,0 +1,56 @@
+/* Ticker block – scrolling marquee strip */
+.ticker-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+/* Remove section margin so ticker sits flush */
+main > .section > .ticker-wrapper {
+  margin: 0;
+}
+
+.ticker {
+  --ticker-border-color: #e8651a;
+  --ticker-text-color: rgb(15, 26, 20);
+  --ticker-font-size: 32px;
+  --ticker-sep-color: #e8651a;
+  --ticker-gap: 32px;
+  --ticker-speed: 40s;
+
+  overflow: hidden;
+  padding: 16px 0;
+  border-top: 1px solid var(--ticker-border-color);
+  border-bottom: 1px solid var(--ticker-border-color);
+}
+
+.ticker > div {
+  display: block;
+}
+
+.ticker .ticker-track {
+  display: flex;
+  gap: var(--ticker-gap);
+  white-space: nowrap;
+  align-items: center;
+  animation: ticker-scroll var(--ticker-speed) linear infinite;
+  width: max-content;
+}
+
+.ticker .ticker-track span {
+  font-size: var(--ticker-font-size);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--ticker-text-color);
+  flex-shrink: 0;
+}
+
+.ticker .ticker-track .ticker-sep {
+  font-size: 24px;
+  color: var(--ticker-sep-color);
+  font-weight: 400;
+}
+
+@keyframes ticker-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

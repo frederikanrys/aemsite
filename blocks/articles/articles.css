@@ -1,0 +1,131 @@
+.articles {
+  --articles-card-bg: #fff;
+  --articles-text: rgb(41, 29, 24);
+  --articles-card-shadow: 0 4px 8px rgba(41, 29, 24, 0.08);
+  --articles-card-gap: 20px;
+  --articles-body-padding: 24px;
+  --articles-title-size: 24px;
+  --articles-text-size: 16px;
+  --articles-img-height: 120px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--articles-card-gap);
+}
+
+/* Card wrapper (the <a> with display:contents wraps the row div) */
+/* The row div becomes the visual card */
+.articles > a {
+  display: contents;
+}
+
+.articles > a > div,
+.articles > div {
+  background: var(--articles-card-bg);
+  box-shadow: var(--articles-card-shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+/* Image cell */
+.articles > a > div > div:first-child,
+.articles > div > div:first-child {
+  height: var(--articles-img-height);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.articles > a > div > div:first-child picture,
+.articles > div > div:first-child picture {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.articles > a > div > div:first-child img,
+.articles > div > div:first-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Body cell */
+.articles > a > div > div:last-child,
+.articles > div > div:last-child {
+  padding: var(--articles-body-padding);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.articles h3 {
+  margin: 0 0 8px;
+  font-size: var(--articles-title-size);
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--articles-text);
+}
+
+.articles p {
+  margin: 0 0 8px;
+  font-size: var(--articles-text-size);
+  line-height: 1.5;
+  color: var(--articles-text);
+}
+
+/* "Lees artikel" link at bottom of card */
+.articles > a > div > div:last-child p:last-child,
+.articles > div > div:last-child p:last-child {
+  margin-top: auto;
+  padding-top: 12px;
+}
+
+.articles a {
+  font-size: var(--articles-text-size);
+  font-weight: 600;
+  color: var(--articles-text);
+  text-decoration: none;
+}
+
+.articles > a > div > div:last-child p:last-child a::after,
+.articles > div > div:last-child p:last-child a::after {
+  content: " ›";
+  font-size: 1.2em;
+}
+
+.articles a:hover {
+  text-decoration: underline;
+}
+
+/* "Bekijk alle artikels" button outside block - style via section */
+main .articles-container .button-wrapper {
+  margin-top: 24px;
+}
+
+main .articles-container a.button.secondary:any-link {
+  background: transparent;
+  border: 1px solid rgb(41, 29, 24);
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(41, 29, 24);
+  text-decoration: none;
+  text-align: center;
+}
+
+main .articles-container a.button.secondary:any-link:hover {
+  background: rgba(41, 29, 24, 0.05);
+}
+
+@media (width >= 900px) {
+  .articles > a > div,
+  .articles > div {
+    flex: 1 1 calc(33.333% - var(--articles-card-gap));
+    max-width: calc(33.333% - var(--articles-card-gap) * 2 / 3);
+    min-width: 0;
+  }
+}

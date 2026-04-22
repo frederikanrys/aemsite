@@ -1,0 +1,43 @@
+{
+  "canonical": "https://www2.telenet.be/residential/nl.html",
+  "description": "Internet, met/zonder mobiel, met/zonder digitale tv. Creëer een totaalbeleving met entertainment. Alsook business internet & telefonie voor bedrijven.",
+  "jsonLd": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "logo": "https://customer-web-foundation-wink-cdn.aem-modules-prod.awsprod.external.telenet.be/v2.37.1/www/assets/shared/logos/telenet/telenet-yellow.svg",
+      "name": "Telenet",
+      "sameAs": [
+        "https://www.facebook.com/telenet",
+        "https://www.x.com/Telenet",
+        "https://www.instagram.com/telenet",
+        "https://www.youtube.com/@telenet",
+        "https://www.linkedin.com/company/telenetgroup/posts"
+      ],
+      "url": "https://www2.telenet.be/#organization"
+    },
+    {
+      "@context": "https://schema.org",
+      "@id": "https://www2.telenet.be/#website",
+      "@type": "WebSite",
+      "name": "Telenet",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "query-input": "required name=search_term_string",
+        "target": "https://www2.telenet.be/residential/nl/zoekresultaten.html?q={search_term_string}"
+      },
+      "publisher": {
+        "@id": "https://www2.telenet.be/#organization"
+      },
+      "url": "https://www2.telenet.be"
+    }
+  ],
+  "ogTags": {
+    "og:description": "Internet, met/zonder mobiel, met/zonder digitale tv. Creëer een totaalbeleving met entertainment. Alsook business internet & telefonie voor bedrijven.",
+    "og:image": "https://www2.telenet.be/content/dam/www-telenet-be/img/generic/Logos%20&%20Trademarks%20for%20content/ogimage/telenet_logo_yellow_whitebg.png",
+    "og:title": "Supersnel internet, met of zonder mobiele telefonie",
+    "og:url": "https://www2.telenet.be/residential/nl.html"
+  },
+  "title": "Supersnel internet, met of zonder mobiele telefonie | Telenet",
+  "twitterTags": {}
+}

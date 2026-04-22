@@ -1,20 +1,85 @@
 footer {
-  background-color: var(--light-color);
+  background-color: rgb(255, 248, 226);
+  color: rgb(41, 29, 24);
   font-size: var(--body-font-size-xs);
 }
 
 footer .footer > div {
   margin: auto;
   max-width: 1200px;
-  padding: 40px 24px 24px;
+  padding: 48px 24px 32px;
+}
+
+/* Reset section constraints inside footer */
+footer .section > .footer-links-wrapper,
+footer .section > .default-content-wrapper {
+  max-width: 100%;
+  padding: 0;
 }
 
 footer .footer p {
   margin: 0;
 }
 
+footer a:any-link {
+  color: rgb(41, 29, 24);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Bottom bar — default content wrapper after the block */
+footer .default-content-wrapper {
+  margin-top: 24px;
+  padding-top: 0;
+}
+
+footer .default-content-wrapper p {
+  font-size: 14px;
+  color: rgb(41, 29, 24);
+  margin: 0 0 8px;
+  line-height: 1.6;
+}
+
+/* Social heading */
+footer .default-content-wrapper p:first-child {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+/* Social links row */
+footer .default-content-wrapper p:nth-child(2) {
+  margin-bottom: 16px;
+}
+
+footer .default-content-wrapper p:nth-child(2) a {
+  display: inline-block;
+  margin-right: 16px;
+  font-size: 14px;
+}
+
+/* Legal links row */
+footer .default-content-wrapper p:nth-child(3) {
+  margin-bottom: 12px;
+}
+
+footer .default-content-wrapper p:nth-child(3) a {
+  margin-right: 16px;
+  font-size: 14px;
+}
+
+/* Copyright */
+footer .default-content-wrapper p:last-child {
+  margin-top: 8px;
+  font-size: 12px;
+  color: rgb(100, 100, 100);
+}
+
 @media (width >= 900px) {
   footer .footer > div {
-    padding: 40px 32px 24px;
+    padding: 48px 32px 32px;
   }
 }

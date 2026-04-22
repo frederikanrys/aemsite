@@ -1,0 +1,57 @@
+/* Banner block - notification/info bar */
+main > .section:has(.banner) {
+  margin: 0;
+}
+
+.banner {
+  --banner-bg: #fff7c7;
+  --banner-text: #291d18;
+  --banner-font-size: 16px;
+  --banner-line-height: 24px;
+  --banner-padding: 8px 16px;
+
+  background: var(--banner-bg);
+  color: var(--banner-text);
+  font-size: var(--banner-font-size);
+  line-height: var(--banner-line-height);
+  text-align: center;
+  padding: var(--banner-padding);
+}
+
+.banner-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.banner p {
+  margin: 0;
+  padding: 0;
+}
+
+.banner a {
+  color: var(--banner-text);
+  text-decoration: underline;
+}
+
+.banner a:hover {
+  text-decoration: underline;
+}
+
+main .banner .button-container {
+  display: inline;
+}
+
+main .banner a.button:any-link {
+  background: none;
+  border: none;
+  color: var(--banner-text);
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  text-decoration: underline;
+  white-space: normal;
+  display: inline;
+  border-radius: 0;
+}

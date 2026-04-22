@@ -1,0 +1,106 @@
+.promo-cards {
+  --card-text: rgb(41, 29, 24);
+  --card-gap: 20px;
+  --card-padding: 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--card-gap);
+  padding: 0;
+}
+
+/* Each row is a card */
+.promo-cards > div {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Background image cell */
+.promo-cards > div > div:first-child {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.promo-cards > div > div:first-child picture,
+.promo-cards > div > div:first-child img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text content cell */
+.promo-cards > div > div:last-child {
+  position: relative;
+  z-index: 1;
+  padding: var(--card-padding);
+  color: var(--card-text);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+/* Label "Speciaal voor Telenet-klanten" */
+.promo-cards > div > div:last-child > p:first-child {
+  font-size: 14px;
+  margin: 0 0 8px;
+}
+
+/* Heading */
+.promo-cards h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+
+/* Description paragraph */
+.promo-cards > div > div:last-child > p:not(:first-child):not(:last-child) {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0 0 16px;
+}
+
+/* Link */
+.promo-cards > div > div:last-child > p:last-child {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.promo-cards > div > div:last-child a {
+  font-size: 16px;
+  color: var(--card-text);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.promo-cards > div > div:last-child a:hover {
+  text-decoration: underline;
+}
+
+@media (width >= 900px) {
+  .promo-cards {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  /* Both cards take equal width (50/50 as in source) */
+  .promo-cards > div {
+    flex: 1;
+    min-height: 500px;
+  }
+
+  .promo-cards h3 {
+    max-width: 75%;
+  }
+
+  .promo-cards > div > div:last-child > p:not(:first-child):not(:last-child) {
+    max-width: 75%;
+  }
+}

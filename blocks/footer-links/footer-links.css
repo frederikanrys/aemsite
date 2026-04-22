@@ -1,0 +1,39 @@
+.footer-links {
+  --fl-link-size: 14px;
+  --fl-link-color: rgb(41, 29, 24);
+}
+
+.footer-links > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.footer-links > div > div h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  line-height: 1.3;
+}
+
+.footer-links > div > div p {
+  margin: 0;
+  line-height: 2;
+}
+
+.footer-links > div > div a {
+  font-size: var(--fl-link-size);
+  color: var(--fl-link-color);
+  text-decoration: none;
+}
+
+.footer-links > div > div a:hover {
+  text-decoration: underline;
+}
+
+@media (width >= 900px) {
+  .footer-links > div {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+  }
+}

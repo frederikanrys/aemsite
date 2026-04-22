@@ -1,0 +1,188 @@
+/* Intent Finder Block */
+.intent-finder {
+  --if-bg: #f7f6f6;
+  --if-panel-bg: #fff;
+  --if-text: #291d18;
+  --if-badge-bg: #fff7c7;
+  --if-badge-text: #291d18;
+  --if-link-size: 14px;
+  --if-padding: 24px;
+  --if-gap: 20px;
+}
+
+/* Full-width override and remove section margin */
+.intent-finder-wrapper {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+main > .section:has(.intent-finder-wrapper) {
+  margin: 0;
+}
+
+.intent-finder-wrapper .intent-finder {
+  background: var(--if-bg);
+  color: var(--if-text);
+  padding: 24px 0;
+}
+
+.intent-finder > div {
+  display: flex;
+  gap: var(--if-gap);
+  max-width: 1132px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/* Left panel */
+.intent-finder .left-panel {
+  flex: 2;
+  background: var(--if-panel-bg);
+  padding: var(--if-padding);
+}
+
+.intent-finder .left-panel h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  color: var(--if-text);
+  line-height: 1.25;
+}
+
+.intent-finder .left-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 24px;
+}
+
+.intent-finder .left-panel ul li a {
+  font-size: var(--if-link-size);
+  color: var(--if-text);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.intent-finder .left-panel ul li a:hover {
+  text-decoration: underline;
+}
+
+.intent-finder .left-panel ul li a::before {
+  content: "›";
+  color: #f5a623;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 8px;
+  line-height: 1;
+}
+
+.intent-finder .left-panel .quiz-section {
+  margin-top: 16px;
+  padding-top: 16px;
+}
+
+.intent-finder .left-panel .quiz-section p {
+  font-size: 16px;
+  margin: 0 0 4px 0;
+  font-weight: 400;
+}
+
+.intent-finder .left-panel .quiz-section a {
+  font-size: 16px;
+  text-decoration: underline;
+  color: var(--if-text);
+}
+
+/* Right panel */
+.intent-finder .right-panel {
+  flex: 1;
+  background: var(--if-panel-bg);
+  padding: var(--if-padding);
+  display: flex;
+  flex-direction: column;
+}
+
+.intent-finder .right-panel .badge {
+  display: inline-block;
+  background: var(--if-badge-bg);
+  color: var(--if-badge-text);
+  font-size: 24px;
+  font-weight: 700;
+  padding: 4px 8px;
+  margin: 0 0 10px 0;
+  line-height: 1.25;
+}
+
+.intent-finder .right-panel .subtitle {
+  font-size: 14px;
+  color: var(--if-text);
+  margin: 0 0 12px 0;
+  line-height: 1.4;
+}
+
+.intent-finder .action-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-top: 1px solid #e8e8e8;
+  cursor: pointer;
+  text-decoration: none !important;
+  color: var(--if-text);
+}
+
+.intent-finder .action-card:hover {
+  text-decoration: none;
+}
+
+.intent-finder .action-card:last-child {
+  padding-bottom: 0;
+}
+
+.intent-finder .action-card .action-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.intent-finder .action-card .action-text {
+  flex: 1;
+  font-size: 16px;
+}
+
+.intent-finder .action-card .action-chevron {
+  flex-shrink: 0;
+  font-size: 20px;
+  color: var(--if-text);
+}
+
+/* Reset button styles for links inside the block */
+main .intent-finder .button-container { display: inline; }
+main .intent-finder a.button:any-link {
+  background: none;
+  border: none;
+  color: var(--if-text);
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  text-decoration: underline;
+  white-space: normal;
+}
+
+/* Mobile */
+@media (width < 900px) {
+  .intent-finder > div {
+    flex-direction: column;
+    padding: 0 16px;
+  }
+
+  .intent-finder .left-panel ul {
+    grid-template-columns: 1fr;
+  }
+}

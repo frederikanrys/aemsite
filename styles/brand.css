@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "telenet-albra-sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Telenet-Albra-Regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "telenet-albra-sans";
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/Telenet-Albra-Medium.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "telenet-albra-sans";
+  font-weight: 600;
+  font-style: normal;
+  src: url("/fonts/Telenet-Albra-Sans-Semi.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "telenet-albra-sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Telenet-Albra-Bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --heading-font-family: "telenet-albra-sans", "Helvetica Neue", helvetica, verdana, arial, sans-serif;
+  --body-font-family: "telenet-albra-sans", "Helvetica Neue", helvetica, verdana, arial, sans-serif;
+  --background-color: rgb(255, 255, 255);
+  --text-color: rgb(41, 29, 24);
+  --link-color: rgb(41, 29, 24);
+  --link-hover-color: rgb(41, 29, 24);
+  --section-padding: 0px;
+  --nav-height: 112px;
+}
+
+html, body { overflow: auto !important; }

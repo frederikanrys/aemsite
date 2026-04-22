@@ -1,0 +1,621 @@
+{
+  "nodeMap": {
+    "r": "body",
+    "rc1": "#app",
+    "rc1c1": "#app > header",
+    "rc1c2": "#app > div:nth-child(7)",
+    "rc1c2c1": "#app > div:nth-child(7) > div > div > div.cmp.cmp-nba-container.aem-GridColumn.aem-GridColumn--default--12",
+    "rc1c2c2": "#app > div:nth-child(7) > div > div > div:nth-child(2)",
+    "rc1c2c2c1": "#intentFinder24 > div > div > div > div > div > div > div.whitespace.aem-GridColumn.aem-GridColumn--default--12.tg-grid--padding-default",
+    "rc1c2c2c2": "#intentFinder24 > div > div > div > div > div > div > div:nth-child(4)",
+    "rc1c2c3": "#app > div:nth-child(7) > div > div > div:nth-child(3)",
+    "rc1c2c3c1": "#app > div:nth-child(7) > div > div > div:nth-child(3) > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn.aem-GridColumn--default--12.tg-grid--padding-default",
+    "rc1c2c3c2": "#app > div:nth-child(7) > div > div > div:nth-child(3) > div > div > div > div > div > div > div > div > div.cmp.cmp-responsivegrid.aem-GridColumn--phone--12.aem-GridColumn--phone--newline.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default",
+    "rc1c2c3c2c1": "#app > div:nth-child(7) > div > div > div:nth-child(3) > div > div > div > div > div > div > div > div > div.cmp.cmp-responsivegrid.aem-GridColumn--phone--12.aem-GridColumn--phone--newline.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default > div > div > div > div:nth-child(1)",
+    "rc1c2c3c2c2": "#app > div:nth-child(7) > div > div > div:nth-child(3) > div > div > div > div > div > div > div > div > div.cmp.cmp-responsivegrid.aem-GridColumn--phone--12.aem-GridColumn--phone--newline.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default > div > div > div > div.text.aem-GridColumn--default--none.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--default--0",
+    "rc1c2c3c2c3": "#app > div:nth-child(7) > div > div > div:nth-child(3) > div > div > div > div > div > div > div > div > div.cmp.cmp-responsivegrid.aem-GridColumn--phone--12.aem-GridColumn--phone--newline.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default > div > div > div > div:nth-child(3)",
+    "rc1c2c4": "#app > div:nth-child(7) > div > div > div:nth-child(4)",
+    "rc1c2c4c1": "#experiencefragment-0b026f8483 > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn.aem-GridColumn--default--12.tg-grid--padding-default",
+    "rc1c2c4c2": "#experiencefragment-0b026f8483 > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.cmp.cmp-grouping.aem-GridColumn.aem-GridColumn--default--12",
+    "rc1c2c5": "#app > div:nth-child(7) > div > div > div:nth-child(5)",
+    "rc1c2c5c1": "#experiencefragment-1e62d16a48 > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn--phone--hide.aem-GridColumn--phone--12.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default",
+    "rc1c2c5c2": "#experiencefragment-1e62d16a48 > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.cmp.cmp-grouping.aem-GridColumn.aem-GridColumn--default--12",
+    "rc1c2c6": "#app > div:nth-child(7) > div > div > div:nth-child(6)",
+    "rc1c2c6c1": "#experiencefragment-43a322e4af > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn--phone--hide.aem-GridColumn--phone--12.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default",
+    "rc1c2c6c2": "#experiencefragment-43a322e4af > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.cmp.cmp-grouping.aem-GridColumn.aem-GridColumn--default--12",
+    "rc1c2c7": "#app > div:nth-child(7) > div > div > div:nth-child(8)",
+    "rc1c2c7c1": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.cmp.cmp-title.aem-GridColumn.aem-GridColumn--default--12",
+    "rc1c2c7c2": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.content-overview.aem-GridColumn.aem-GridColumn--default--12",
+    "rc1c2c7c3": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn.aem-GridColumn--default--12",
+    "rc1c2c7c4": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.cmp.cmp-button.aem-GridColumn.aem-GridColumn--default--12",
+    "rc1c2c7c4c1": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.cmp.cmp-button.aem-GridColumn.aem-GridColumn--default--12 > div",
+    "rc1c2c7c4c2": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.cmp.cmp-button.aem-GridColumn.aem-GridColumn--default--12 > tg-lazy-loading",
+    "rc1c2c8": "#app > div:nth-child(7) > div > div > div:nth-child(9)",
+    "rc1c2c8c1": "#app > div:nth-child(7) > div > div > div:nth-child(9) > div > div > div > div > div > div > div > div > div.cmp.cmp-title.aem-GridColumn.aem-GridColumn--default--12",
+    "rc1c2c8c2": "#app > div:nth-child(7) > div > div > div:nth-child(9) > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn.aem-GridColumn--default--12",
+    "rc1c2c8c3": "#app > div:nth-child(7) > div > div > div:nth-child(9) > div > div > div > div > div > div > div > div > div.cmp.cmp-grouping.aem-GridColumn.aem-GridColumn--default--12",
+    "rc1c3": "#app > tg-lazy-loading-standalone",
+    "rc2": "body > footer",
+    "rc2c1": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.background-transparent.segment-driven-content.theme--inherit.tg-grid--padding-no",
+    "rc2c1c1": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.background-transparent.segment-driven-content.theme--inherit.tg-grid--padding-no > div > div > div.cmp.cmp-social-media.aem-GridColumn.aem-GridColumn--default--12",
+    "rc2c1c1c1": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.background-transparent.segment-driven-content.theme--inherit.tg-grid--padding-no > div > div > div.cmp.cmp-social-media.aem-GridColumn.aem-GridColumn--default--12 > div > div > p",
+    "rc2c1c1c2": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.background-transparent.segment-driven-content.theme--inherit.tg-grid--padding-no > div > div > div.cmp.cmp-social-media.aem-GridColumn.aem-GridColumn--default--12 > div > div > div",
+    "rc2c1c2": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.background-transparent.segment-driven-content.theme--inherit.tg-grid--padding-no > div > div > div.text.aem-GridColumn.aem-GridColumn--default--12",
+    "rc2c2": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.row",
+    "rc3": "body > div:nth-child(19)"
+  },
+  "text": "r @0,0 1028x907\n  rc1 @0,112 1028x3701\n    rc1c1 @0,112 1028x24 \"NL FR EN NL FR EN Internet + M...\"\n    rc1c2 @0,136 1028x3586\n      rc1c2c1 [2x1] @0,136 1028x360 \"Mobiel + internet met korting ...\"\n      rc1c2c2 @0,496 1028x472\n        rc1c2c2c1 @30,520 968x16\n        rc1c2c2c2 [2x1] @30,536 968x408 \"Wat zoek je? Internet + mobiel...\"\n      rc1c2c3 @0,968 1028x56\n        rc1c2c3c1 @30,968 968x16\n        rc1c2c3c2 [bg:color] @30,984 968x40\n          rc1c2c3c2c1 @40,984 948x8\n          rc1c2c3c2c2 @40,992 948x24 \"Liever geen vaste lijn? Dat ka...\"\n          rc1c2c3c2c3 @40,1016 948x8\n      rc1c2c4 @0,1024 1028x166\n        rc1c2c4c1 @30,1024 968x32\n        rc1c2c4c2 [2x1] @30,1056 968x134 \"Bespaar met onze webdeals Webd...\"\n      rc1c2c5 @0,1190 1028x552\n        rc1c2c5c1 @30,1190 968x32\n        rc1c2c5c2 [3x1] @30,1222 968x520 \"INTERNET Onbeperkt internet nu...\"\n      rc1c2c6 @0,1742 1028x536\n        rc1c2c6c1 @30,1742 968x32\n        rc1c2c6c2 [2x1] @30,1774 968x504 \"Speciaal voor Telenet-klanten ...\"\n      rc1c2c7 @0,2278 1028x1100\n        rc1c2c7c1 @30,2302 968x84 \"Op zoek naar inspiratie?\"\n        rc1c2c7c2 [2x2] @30,2386 968x832 \"Is je kind klaar voor een eers...\"\n        rc1c2c7c3 @30,3218 968x32\n        rc1c2c7c4 @30,3250 968x104\n          rc1c2c7c4c1 @30,3250 968x52\n          rc1c2c7c4c2 @30,3302 968x52 \"Bekijk alle artikels\"\n      rc1c2c8 @0,3378 1028x344\n        rc1c2c8c1 @30,3402 968x84 \"Hoe kunnen we je helpen?\"\n        rc1c2c8c2 @30,3558 968x48\n        rc1c2c8c3 [3x1] @30,3606 968x92 \"Veelgestelde vragen Contacteer...\"\n    rc1c3 @0,3722 1028x91\n  rc2 [bg:color] @0,3813 1028x668\n    rc2c1 [4x3] @16,3833 996x575\n      rc2c1c1 @16,4292 996x92\n        rc2c1c1c1 @16,4308 996x28 \"Vind ons ook op\"\n        rc2c1c1c2 @16,4336 996x48\n      rc2c1c2 [6x1] @16,4384 996x24 \"Voorwaarden Juridische info He...\"\n    rc2c2 @6,4408 1016x33 \"© Telenet 2026 - Telenet BV - ...\"\n  rc3 @0,4481 1028x60\n",
+  "tree": {
+    "background": {
+      "raw": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+      "source": "css",
+      "type": "color",
+      "value": "rgb(255, 255, 255)"
+    },
+    "bounds": {
+      "height": 907,
+      "width": 1028,
+      "x": 0,
+      "y": 0
+    },
+    "children": [
+      {
+        "bounds": {
+          "height": 3701,
+          "width": 1028,
+          "x": 0,
+          "y": 112
+        },
+        "children": [
+          {
+            "bounds": {
+              "height": 24,
+              "width": 1028,
+              "x": 0,
+              "y": 112
+            },
+            "children": [],
+            "selector": "#app > header",
+            "tag": "HEADER",
+            "text": "NL FR EN NL FR EN Internet + M"
+          },
+          {
+            "bounds": {
+              "height": 3586,
+              "width": 1028,
+              "x": 0,
+              "y": 136
+            },
+            "children": [
+              {
+                "bounds": {
+                  "height": 360,
+                  "width": 1028,
+                  "x": 0,
+                  "y": 136
+                },
+                "children": [],
+                "className": "cmp",
+                "layout": "2x1",
+                "selector": "#app > div:nth-child(7) > div > div > div.cmp.cmp-nba-container.aem-GridColumn.aem-GridColumn--default--12",
+                "tag": "DIV",
+                "text": "Mobiel + internet met korting "
+              },
+              {
+                "background": {
+                  "raw": "rgb(247, 246, 246) none repeat scroll 0% 0% / auto padding-box border-box",
+                  "source": "css",
+                  "type": "color",
+                  "value": "rgb(247, 246, 246)"
+                },
+                "bounds": {
+                  "height": 472,
+                  "width": 1028,
+                  "x": 0,
+                  "y": 496
+                },
+                "children": [
+                  {
+                    "bounds": {
+                      "height": 16,
+                      "width": 968,
+                      "x": 30,
+                      "y": 520
+                    },
+                    "children": [],
+                    "className": "whitespace",
+                    "selector": "#intentFinder24 > div > div > div > div > div > div > div.whitespace.aem-GridColumn.aem-GridColumn--default--12.tg-grid--padding-default",
+                    "tag": "DIV"
+                  },
+                  {
+                    "bounds": {
+                      "height": 408,
+                      "width": 968,
+                      "x": 30,
+                      "y": 536
+                    },
+                    "children": [],
+                    "className": "cmp",
+                    "layout": "2x1",
+                    "selector": "#intentFinder24 > div > div > div > div > div > div > div:nth-child(4)",
+                    "tag": "DIV",
+                    "text": "Wat zoek je? Internet + mobiel"
+                  }
+                ],
+                "className": "experiencefragment",
+                "selector": "#app > div:nth-child(7) > div > div > div:nth-child(2)",
+                "tag": "DIV"
+              },
+              {
+                "bounds": {
+                  "height": 56,
+                  "width": 1028,
+                  "x": 0,
+                  "y": 968
+                },
+                "children": [
+                  {
+                    "bounds": {
+                      "height": 16,
+                      "width": 968,
+                      "x": 30,
+                      "y": 968
+                    },
+                    "children": [],
+                    "className": "whitespace",
+                    "selector": "#app > div:nth-child(7) > div > div > div:nth-child(3) > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn.aem-GridColumn--default--12.tg-grid--padding-default",
+                    "tag": "DIV"
+                  },
+                  {
+                    "background": {
+                      "raw": "rgb(255, 247, 199) none repeat scroll 0% 0% / auto padding-box border-box",
+                      "source": "css",
+                      "type": "color",
+                      "value": "rgb(255, 247, 199)"
+                    },
+                    "bounds": {
+                      "height": 40,
+                      "width": 968,
+                      "x": 30,
+                      "y": 984
+                    },
+                    "children": [
+                      {
+                        "bounds": {
+                          "height": 8,
+                          "width": 948,
+                          "x": 40,
+                          "y": 984
+                        },
+                        "children": [],
+                        "className": "whitespace",
+                        "selector": "#app > div:nth-child(7) > div > div > div:nth-child(3) > div > div > div > div > div > div > div > div > div.cmp.cmp-responsivegrid.aem-GridColumn--phone--12.aem-GridColumn--phone--newline.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default > div > div > div > div:nth-child(1)",
+                        "tag": "DIV"
+                      },
+                      {
+                        "bounds": {
+                          "height": 24,
+                          "width": 948,
+                          "x": 40,
+                          "y": 992
+                        },
+                        "children": [],
+                        "className": "text",
+                        "selector": "#app > div:nth-child(7) > div > div > div:nth-child(3) > div > div > div > div > div > div > div > div > div.cmp.cmp-responsivegrid.aem-GridColumn--phone--12.aem-GridColumn--phone--newline.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default > div > div > div > div.text.aem-GridColumn--default--none.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--default--0",
+                        "tag": "DIV",
+                        "text": "Liever geen vaste lijn? Dat ka"
+                      },
+                      {
+                        "bounds": {
+                          "height": 8,
+                          "width": 948,
+                          "x": 40,
+                          "y": 1016
+                        },
+                        "children": [],
+                        "className": "whitespace",
+                        "selector": "#app > div:nth-child(7) > div > div > div:nth-child(3) > div > div > div > div > div > div > div > div > div.cmp.cmp-responsivegrid.aem-GridColumn--phone--12.aem-GridColumn--phone--newline.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default > div > div > div > div:nth-child(3)",
+                        "tag": "DIV"
+                      }
+                    ],
+                    "className": "cmp",
+                    "selector": "#app > div:nth-child(7) > div > div > div:nth-child(3) > div > div > div > div > div > div > div > div > div.cmp.cmp-responsivegrid.aem-GridColumn--phone--12.aem-GridColumn--phone--newline.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default",
+                    "tag": "DIV"
+                  }
+                ],
+                "className": "cmp",
+                "selector": "#app > div:nth-child(7) > div > div > div:nth-child(3)",
+                "tag": "DIV"
+              },
+              {
+                "bounds": {
+                  "height": 166,
+                  "width": 1028,
+                  "x": 0,
+                  "y": 1024
+                },
+                "children": [
+                  {
+                    "bounds": {
+                      "height": 32,
+                      "width": 968,
+                      "x": 30,
+                      "y": 1024
+                    },
+                    "children": [],
+                    "className": "whitespace",
+                    "selector": "#experiencefragment-0b026f8483 > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn.aem-GridColumn--default--12.tg-grid--padding-default",
+                    "tag": "DIV"
+                  },
+                  {
+                    "bounds": {
+                      "height": 134,
+                      "width": 968,
+                      "x": 30,
+                      "y": 1056
+                    },
+                    "children": [],
+                    "className": "cmp",
+                    "layout": "2x1",
+                    "selector": "#experiencefragment-0b026f8483 > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.cmp.cmp-grouping.aem-GridColumn.aem-GridColumn--default--12",
+                    "tag": "DIV",
+                    "text": "Bespaar met onze webdeals Webd"
+                  }
+                ],
+                "className": "experiencefragment",
+                "selector": "#app > div:nth-child(7) > div > div > div:nth-child(4)",
+                "tag": "DIV"
+              },
+              {
+                "bounds": {
+                  "height": 552,
+                  "width": 1028,
+                  "x": 0,
+                  "y": 1190
+                },
+                "children": [
+                  {
+                    "bounds": {
+                      "height": 32,
+                      "width": 968,
+                      "x": 30,
+                      "y": 1190
+                    },
+                    "children": [],
+                    "className": "whitespace",
+                    "selector": "#experiencefragment-1e62d16a48 > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn--phone--hide.aem-GridColumn--phone--12.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default",
+                    "tag": "DIV"
+                  },
+                  {
+                    "bounds": {
+                      "height": 520,
+                      "width": 968,
+                      "x": 30,
+                      "y": 1222
+                    },
+                    "children": [],
+                    "className": "cmp",
+                    "layout": "3x1",
+                    "selector": "#experiencefragment-1e62d16a48 > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.cmp.cmp-grouping.aem-GridColumn.aem-GridColumn--default--12",
+                    "tag": "DIV",
+                    "text": "INTERNET Onbeperkt internet nu"
+                  }
+                ],
+                "className": "experiencefragment",
+                "selector": "#app > div:nth-child(7) > div > div > div:nth-child(5)",
+                "tag": "DIV"
+              },
+              {
+                "bounds": {
+                  "height": 536,
+                  "width": 1028,
+                  "x": 0,
+                  "y": 1742
+                },
+                "children": [
+                  {
+                    "bounds": {
+                      "height": 32,
+                      "width": 968,
+                      "x": 30,
+                      "y": 1742
+                    },
+                    "children": [],
+                    "className": "whitespace",
+                    "selector": "#experiencefragment-43a322e4af > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn--phone--hide.aem-GridColumn--phone--12.aem-GridColumn.aem-GridColumn--default--12.aem-GridColumn--offset--phone--0.tg-grid--padding-default",
+                    "tag": "DIV"
+                  },
+                  {
+                    "bounds": {
+                      "height": 504,
+                      "width": 968,
+                      "x": 30,
+                      "y": 1774
+                    },
+                    "children": [],
+                    "className": "cmp",
+                    "layout": "2x1",
+                    "selector": "#experiencefragment-43a322e4af > div > div > div > div > div > div > div > div > div > div > div > div > div > div > div.cmp.cmp-grouping.aem-GridColumn.aem-GridColumn--default--12",
+                    "tag": "DIV",
+                    "text": "Speciaal voor Telenet-klanten "
+                  }
+                ],
+                "className": "experiencefragment",
+                "selector": "#app > div:nth-child(7) > div > div > div:nth-child(6)",
+                "tag": "DIV"
+              },
+              {
+                "bounds": {
+                  "height": 1100,
+                  "width": 1028,
+                  "x": 0,
+                  "y": 2278
+                },
+                "children": [
+                  {
+                    "bounds": {
+                      "height": 84,
+                      "width": 968,
+                      "x": 30,
+                      "y": 2302
+                    },
+                    "children": [],
+                    "className": "cmp",
+                    "selector": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.cmp.cmp-title.aem-GridColumn.aem-GridColumn--default--12",
+                    "tag": "DIV",
+                    "text": "Op zoek naar inspiratie?"
+                  },
+                  {
+                    "bounds": {
+                      "height": 832,
+                      "width": 968,
+                      "x": 30,
+                      "y": 2386
+                    },
+                    "children": [],
+                    "className": "content-overview",
+                    "layout": "2x2",
+                    "selector": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.content-overview.aem-GridColumn.aem-GridColumn--default--12",
+                    "tag": "DIV",
+                    "text": "Is je kind klaar voor een eers"
+                  },
+                  {
+                    "bounds": {
+                      "height": 32,
+                      "width": 968,
+                      "x": 30,
+                      "y": 3218
+                    },
+                    "children": [],
+                    "className": "whitespace",
+                    "selector": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn.aem-GridColumn--default--12",
+                    "tag": "DIV"
+                  },
+                  {
+                    "bounds": {
+                      "height": 104,
+                      "width": 968,
+                      "x": 30,
+                      "y": 3250
+                    },
+                    "children": [
+                      {
+                        "bounds": {
+                          "height": 52,
+                          "width": 968,
+                          "x": 30,
+                          "y": 3250
+                        },
+                        "children": [],
+                        "selector": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.cmp.cmp-button.aem-GridColumn.aem-GridColumn--default--12 > div",
+                        "tag": "DIV"
+                      },
+                      {
+                        "bounds": {
+                          "height": 52,
+                          "width": 968,
+                          "x": 30,
+                          "y": 3302
+                        },
+                        "children": [],
+                        "selector": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.cmp.cmp-button.aem-GridColumn.aem-GridColumn--default--12 > tg-lazy-loading",
+                        "tag": "TG-LAZY-LOADING",
+                        "text": "Bekijk alle artikels"
+                      }
+                    ],
+                    "className": "cmp",
+                    "selector": "#app > div:nth-child(7) > div > div > div:nth-child(8) > div > div > div > div > div > div > div > div > div.cmp.cmp-button.aem-GridColumn.aem-GridColumn--default--12",
+                    "tag": "DIV"
+                  }
+                ],
+                "className": "cmp",
+                "selector": "#app > div:nth-child(7) > div > div > div:nth-child(8)",
+                "tag": "DIV"
+              },
+              {
+                "bounds": {
+                  "height": 344,
+                  "width": 1028,
+                  "x": 0,
+                  "y": 3378
+                },
+                "children": [
+                  {
+                    "bounds": {
+                      "height": 84,
+                      "width": 968,
+                      "x": 30,
+                      "y": 3402
+                    },
+                    "children": [],
+                    "className": "cmp",
+                    "selector": "#app > div:nth-child(7) > div > div > div:nth-child(9) > div > div > div > div > div > div > div > div > div.cmp.cmp-title.aem-GridColumn.aem-GridColumn--default--12",
+                    "tag": "DIV",
+                    "text": "Hoe kunnen we je helpen?"
+                  },
+                  {
+                    "bounds": {
+                      "height": 48,
+                      "width": 968,
+                      "x": 30,
+                      "y": 3558
+                    },
+                    "children": [],
+                    "className": "whitespace",
+                    "selector": "#app > div:nth-child(7) > div > div > div:nth-child(9) > div > div > div > div > div > div > div > div > div.whitespace.aem-GridColumn.aem-GridColumn--default--12",
+                    "tag": "DIV"
+                  },
+                  {
+                    "bounds": {
+                      "height": 92,
+                      "width": 968,
+                      "x": 30,
+                      "y": 3606
+                    },
+                    "children": [],
+                    "className": "cmp",
+                    "layout": "3x1",
+                    "selector": "#app > div:nth-child(7) > div > div > div:nth-child(9) > div > div > div > div > div > div > div > div > div.cmp.cmp-grouping.aem-GridColumn.aem-GridColumn--default--12",
+                    "tag": "DIV",
+                    "text": "Veelgestelde vragen Contacteer"
+                  }
+                ],
+                "className": "cmp",
+                "selector": "#app > div:nth-child(7) > div > div > div:nth-child(9)",
+                "tag": "DIV"
+              }
+            ],
+            "selector": "#app > div:nth-child(7)",
+            "tag": "DIV"
+          },
+          {
+            "bounds": {
+              "height": 91,
+              "width": 1028,
+              "x": 0,
+              "y": 3722
+            },
+            "children": [],
+            "selector": "#app > tg-lazy-loading-standalone",
+            "tag": "TG-LAZY-LOADING-STANDALONE"
+          }
+        ],
+        "className": "content-wrap",
+        "id": "app",
+        "selector": "#app",
+        "tag": "DIV"
+      },
+      {
+        "background": {
+          "raw": "rgb(255, 248, 226) none repeat scroll 0% 0% / auto padding-box border-box",
+          "source": "css",
+          "type": "color",
+          "value": "rgb(255, 248, 226)"
+        },
+        "bounds": {
+          "height": 668,
+          "width": 1028,
+          "x": 0,
+          "y": 3813
+        },
+        "children": [
+          {
+            "bounds": {
+              "height": 575,
+              "width": 996,
+              "x": 16,
+              "y": 3833
+            },
+            "children": [
+              {
+                "bounds": {
+                  "height": 92,
+                  "width": 996,
+                  "x": 16,
+                  "y": 4292
+                },
+                "children": [
+                  {
+                    "bounds": {
+                      "height": 28,
+                      "width": 996,
+                      "x": 16,
+                      "y": 4308
+                    },
+                    "children": [],
+                    "className": "heading--6",
+                    "selector": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.background-transparent.segment-driven-content.theme--inherit.tg-grid--padding-no > div > div > div.cmp.cmp-social-media.aem-GridColumn.aem-GridColumn--default--12 > div > div > p",
+                    "tag": "P",
+                    "text": "Vind ons ook op"
+                  },
+                  {
+                    "bounds": {
+                      "height": 48,
+                      "width": 996,
+                      "x": 16,
+                      "y": 4336
+                    },
+                    "children": [],
+                    "className": "social-media",
+                    "selector": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.background-transparent.segment-driven-content.theme--inherit.tg-grid--padding-no > div > div > div.cmp.cmp-social-media.aem-GridColumn.aem-GridColumn--default--12 > div > div > div",
+                    "tag": "DIV"
+                  }
+                ],
+                "className": "cmp",
+                "selector": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.background-transparent.segment-driven-content.theme--inherit.tg-grid--padding-no > div > div > div.cmp.cmp-social-media.aem-GridColumn.aem-GridColumn--default--12",
+                "tag": "DIV"
+              },
+              {
+                "bounds": {
+                  "height": 24,
+                  "width": 996,
+                  "x": 16,
+                  "y": 4384
+                },
+                "children": [],
+                "className": "text",
+                "layout": "6x1",
+                "selector": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.background-transparent.segment-driven-content.theme--inherit.tg-grid--padding-no > div > div > div.text.aem-GridColumn.aem-GridColumn--default--12",
+                "tag": "DIV",
+                "text": "Voorwaarden Juridische info He"
+              }
+            ],
+            "className": "background-transparent",
+            "layout": "4x3",
+            "selector": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.background-transparent.segment-driven-content.theme--inherit.tg-grid--padding-no",
+            "tag": "DIV"
+          },
+          {
+            "bounds": {
+              "height": 33,
+              "width": 1016,
+              "x": 6,
+              "y": 4408
+            },
+            "children": [],
+            "className": "row",
+            "selector": "body > footer > upc:defineobjects > div.cmp.cmp-inheritance-component > div > footer > div > div > div.row",
+            "tag": "DIV",
+            "text": "© Telenet 2026 - Telenet BV - "
+          }
+        ],
+        "selector": "body > footer",
+        "tag": "FOOTER"
+      },
+      {
+        "bounds": {
+          "height": 60,
+          "width": 1028,
+          "x": 0,
+          "y": 4481
+        },
+        "children": [],
+        "selector": "body > div:nth-child(19)",
+        "tag": "DIV"
+      }
+    ],
+    "className": "home-page",
+    "selector": "body",
+    "tag": "BODY"
+  }
+}

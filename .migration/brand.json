@@ -1,0 +1,82 @@
+{
+  "colors": {
+    "background": "rgb(255, 255, 255)",
+    "dark": "rgb(255, 255, 255)",
+    "light": "",
+    "link": "rgb(41, 29, 24)",
+    "linkHover": null,
+    "text": "rgb(41, 29, 24)"
+  },
+  "favicons": [
+    {
+      "rel": "apple-touch-icon",
+      "sizes": "180x180",
+      "url": "https://www2.telenet.be/etc/designs/aff-telenet-touch/media/icons/favicon/apple-touch-icon.png"
+    },
+    {
+      "rel": "icon",
+      "sizes": "32x32",
+      "type": "image/png",
+      "url": "https://www2.telenet.be/etc/designs/aff-telenet-touch/media/icons/favicon/favicon-32x32.png"
+    },
+    {
+      "rel": "icon",
+      "sizes": "16x16",
+      "type": "image/png",
+      "url": "https://www2.telenet.be/etc/designs/aff-telenet-touch/media/icons/favicon/favicon-16x16.png"
+    },
+    {
+      "rel": "mask-icon",
+      "url": "https://www2.telenet.be/etc/designs/aff-telenet-touch/media/icons/favicon/safari-pinned-tab.svg"
+    },
+    {
+      "rel": "shortcut icon",
+      "url": "https://www2.telenet.be/etc/designs/aff-telenet-touch/media/icons/favicon/favicon.ico"
+    }
+  ],
+  "fonts": {
+    "body": {
+      "family": "telenet-albra-sans",
+      "familySet": "telenet-albra-sans"
+    },
+    "heading": {
+      "family": "telenet-albra-sans",
+      "familySet": "telenet-albra-sans"
+    },
+    "headingSizes": {
+      "l": {
+        "desktop": "32px",
+        "mobile": "24px"
+      },
+      "m": {
+        "desktop": "20px",
+        "mobile": "20px"
+      },
+      "s": {
+        "desktop": "20px",
+        "mobile": "18px"
+      },
+      "xl": {
+        "desktop": "24px",
+        "mobile": "28px"
+      },
+      "xs": {
+        "desktop": "",
+        "mobile": "16px"
+      },
+      "xxl": {
+        "desktop": "56px",
+        "mobile": "36px"
+      }
+    },
+    "sources": {
+      "googleFonts": [],
+      "typekit": null
+    }
+  },
+  "spacing": {
+    "contentMaxWidth": "",
+    "navHeight": "0px",
+    "sectionPadding": "0px"
+  }
+}
